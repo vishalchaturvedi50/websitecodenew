@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { BrandComponent } from './brand/brand.component';
 import { AboutComponent } from './about/about.component';
 import { TechskillComponent } from './techskill/techskill.component';
+import { WorkComponent } from './work/work.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BrandComponent,
     AboutComponent,
-    TechskillComponent
+    TechskillComponent,
+    WorkComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
