@@ -1,0 +1,15 @@
+<div class="overlay">
+
+</div>
+
+<div class="flex flex--column h-fill-available jc-space-betweeen">
+    <!-- NAME -->
+    <h1 class="white banner-heading z-1">VISHAL CHATURVEDI</h1>
+
+    <!--  ALL INCONS -->
+    <div class="flex flex--row jc-space-around z-1 icon-div">
+        <div *ngFor="let items of icons" class="w-10 h-fit-content flex jc-center">
+            <a target="_blank" [href]="items.link"><img [src]="items.iconpath" /></a>
+        </div>
+    </div>
+</div>

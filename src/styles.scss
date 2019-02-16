@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i");
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--row {
+  flex-direction: row;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+.jc-space-betweeen {
+  justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.h-fit-content {
+  height: fit-content;
+}
+
+.h-fill-available {
+  height: -webkit-fill-available;
+}
+
+.white {
+  color: white;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.z-1 {
+  z-index: 1;
+}
