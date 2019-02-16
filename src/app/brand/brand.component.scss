@@ -1,5 +1,5 @@
 :host {
-  height: 100vh;
+  max-height: 100vh;
   box-sizing: border-box;
   width: 100%;
   padding: 1em;
@@ -9,6 +9,7 @@
 
 .banner-heading {
   font-size: 6em;
+  font-weight: 300;
   &:hover {
     text-decoration: underline;
     text-decoration-color: #28c4ff;
@@ -29,9 +30,27 @@ img {
   z-index: 0;
 }
 
-
 .icon-div {
   &:hover {
     background-color: #00000075;
   }
 }
+
+/* @media only screen and (max-width: 768px) {
+  :host {
+    overflow: hidden;
+  }
+  .banner-heading {
+    font-size: 3em;
+  }
+  .icon-div {
+    flex-wrap: wrap;
+    .w-10 {
+      width: 20%;
+    }
+  }
+  img {
+    max-height: 3em;
+  }
+}
+ */
