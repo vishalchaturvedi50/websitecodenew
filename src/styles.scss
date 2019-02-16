@@ -48,6 +48,10 @@ body {
   height: -webkit-fill-available;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .white {
   color: white;
 }
@@ -61,4 +65,11 @@ body {
 
 .z-1 {
   z-index: 1;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  border-left: 6px solid $blue-const;
+  padding-left: 0.5em;
+  font-weight: 300;
 }
