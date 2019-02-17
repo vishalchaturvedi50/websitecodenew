@@ -1,0 +1,27 @@
+:host {
+  background-image: url("../../assets/education.jpg");
+  min-height: 80vh;
+}
+
+.title {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0.2em;
+  small {
+    font-size: 0.8em;
+  }
+}
+
+.chips-container {
+  .chips {
+    margin: 0.3em 0.5em;
+    font-size: 1.2em;
+    padding: 0 0.5em;
+    background: #9be4ff7d;
+    font-weight: 300;
+    display: inline-block;
+    &:nth-child(2n) {
+      background: #efc1ca;
+    }
+  }
+}

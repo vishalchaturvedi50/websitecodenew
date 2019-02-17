@@ -1,3 +1,12 @@
-<p>
-  education works!
-</p>
+<h2 class="section-heading">Education</h2>
+
+<div class="flex flex--column w-50 padding-x">
+  <div class="flex flex--column" *ngFor="let item of education">
+    <h3 class="title">{{item.title}}
+      <small>{{item.duration}}</small>
+    </h3>
+    <div class="chips-container">
+      <span class="chips" *ngFor="let chip of item.chipsData">{{chip}}</span>
+    </div>
+  </div>
+</div>
