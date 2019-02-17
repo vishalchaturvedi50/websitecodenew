@@ -1,3 +1,20 @@
-<p>
-  work works!
-</p>
+<h2 class="section-heading">Work Experience</h2>
+
+<div class="flex flex--row flex-wrap">
+  <div class="w-50 flex flex--row flex-wrap padding-x" *ngFor="let item of workExperience">
+    <!-- IMAGE and title  -->
+    <div class="w-100 jc-space-betweeen al-center flex flex--row">
+      <div class="w-100 flex flex--column jc-flex-end">
+        <h3 class="title">{{item.title}}</h3>
+        <span class="duration">{{item.duration}}</span>
+      </div>
+      <img [src]="item.img" />
+    </div>
+
+    <!-- TH -->
+    <ul>
+      <li class="desc-item" *ngFor="let desc of item.descItems">{{desc}}</li>
+    </ul>
+
+  </div>
+</div>

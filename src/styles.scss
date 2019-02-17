@@ -29,6 +29,21 @@ body {
   width: 20%;
 }
 
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-10,
+.w-20,
+.w-100,
+.w-50 {
+  box-sizing: border-box;
+}
+
 .jc-space-around {
   justify-content: space-around;
 }
@@ -38,6 +53,14 @@ body {
 
 .jc-center {
   justify-content: center;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.al-center {
+  align-items: center;
 }
 
 .h-fit-content {
@@ -72,4 +95,8 @@ body {
   border-left: 6px solid $blue-const;
   padding-left: 0.5em;
   font-weight: 300;
+}
+
+.padding-x {
+  padding: 1em;
 }
