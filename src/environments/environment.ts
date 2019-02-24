@@ -50,6 +50,7 @@ export const techSkillsConst = [
 
 
 export const workExperienceConst = [
+
   {
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/500px-General_Electric_logo.svg.png",
     title: "Senior Software Enginner - Lead Professional",
@@ -75,6 +76,26 @@ export const workExperienceConst = [
       "Conceptualize future roadmap of the product with help of various POC's and POV's",
       "Lead a team of 3 UI Developer alongwith user story and task management. ",
       "Work as an SME in Gamification to provide clients with various solutions towards their mundane processes."
+    ]
+  }
+];
+
+
+export const educationConst = [
+  {
+    title: "Bachelor of Technology | Hindustan Institute of Technology and Management, UPTU",
+    duration: "August 2010 - May 2014",
+    chipsData: [
+      "Head college cultural society", "Drummer",
+      "Member and later head of event management group",
+      "Campus Ambassador TechKriti'14 IIT Kanpur"
+    ]
+  },
+  {
+    title: "Senior Secondary & Secondary Examinations | M.M. Sr. Sec. Public School CBSE",
+    duration: "April 2007 - March 2010",
+    chipsData: [
+      "Head music and event club", "Member Debate Club "
     ]
   }
 ];
