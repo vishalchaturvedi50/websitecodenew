@@ -12,4 +12,11 @@ export class HobbyComponent implements OnInit {
   ngOnInit() {
   }
 
+  public hoobies = [
+    "./../assets/hobby/re.png",
+    "./../assets/hobby/music.png",
+    "./../assets/hobby/movies.png",
+    "../assets/hobby/book.png",
+  ]
+
 }
