@@ -1,14 +1,3 @@
-<h2 class="section-heading">ABOUT ME</h2>
+<h2 class="section-heading">{{aboutMe.heading}}</h2>
 
-<section><q>
-    A Full Stack Web Developer with an Experience of over 4.5 Years, I hold a passion to develop flawless user
-    interfaces with cutting edge technologies and with Design Thinking as my main principle of work. Right from working
-    on Products which caters to Business(B2B), Enterprise(B2E) or Consumers (B2C) to being an SME in Gamification trends
-    I bring forward my thought leadership, functional knowledge and technological experience to the team I work with.
-  </q>
-</section>
-<section><q>
-    When I am not working I love to travel and make some music. I have been into music for quite a while and
-    traveling is my new passion. If you are interested to know more about my work or even if you are interested to know
-    my traveling stories (not many though) you can reach me out over email. </q>
-</section>
+<section *ngFor="let item of aboutMe.sections"><q>{{item}}</q></section>
