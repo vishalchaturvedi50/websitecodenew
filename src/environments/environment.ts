@@ -82,6 +82,7 @@ export const workExperienceConst = [
 
 
 export const educationConst = [
+
   {
     title: "Bachelor of Technology | Hindustan Institute of Technology and Management, UPTU",
     duration: "August 2010 - May 2014",
@@ -98,4 +99,12 @@ export const educationConst = [
       "Head music and event club", "Member Debate Club "
     ]
   }
+];
+
+
+export const hobbyConst = [
+  "./../assets/hobby/re.png",
+  "./../assets/hobby/music.png",
+  "./../assets/hobby/movies.png",
+  "../assets/hobby/book.png",
 ];
