@@ -106,3 +106,15 @@ body {
 .padding-x {
   padding: 1em;
 }
+
+@media only screen and (max-width: 768px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+  .w-sm-33 {
+    width: 33.33%;
+  }
+  .w-sm-72 {
+    width: 72%;
+  }
+}
