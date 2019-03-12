@@ -1,7 +1,7 @@
 <h2 class="section-heading">Work Experience</h2>
 
 <div class="flex flex--row flex-wrap">
-  <div class="w-50 w-sm-100 flex flex--row flex-wrap padding-x" *ngFor="let item of workExperience">
+  <div class="w-100 w-sm-100 flex flex--row flex-wrap padding-x" *ngFor="let item of workExperience">
     <!-- IMAGE and title  -->
     <div class="w-100 jc-space-betweeen al-center flex flex--row">
       <div class="w-100 flex flex--column jc-flex-end">
@@ -12,9 +12,22 @@
     </div>
 
     <!-- TH -->
-    <ul>
+    <!-- <ul>
       <li class="desc-item" *ngFor="let desc of item.descItems">{{desc}}</li>
     </ul>
+ -->
+
+    <ul>
+      <li class="desc-item-top" *ngFor="let req of item.descItems">
+        {{req.name}}
+        <br>
+        <div><span class="resp" *ngIf="req.responsibilities.length>0 ">Key Responsibilities</span></div>
+        <ul>
+          <li class="desc-item" *ngFor="let desc of req.responsibilities">{{desc}}</li>
+        </ul>
+      </li>
+    </ul>
+
 
   </div>
 </div>

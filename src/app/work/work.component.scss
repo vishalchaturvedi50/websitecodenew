@@ -18,11 +18,25 @@ img {
   padding-right: 0.6em;
 }
 
+.desc-item-top,
 .desc-item {
   font-size: 1.1em;
   font-weight: 300;
   margin: 0.5em 0em;
   text-align: justify;
+}
+
+.desc-item-top {
+  margin-top: 2em;
+  list-style: none;
+  border-left: 3px solid #28c4ff;
+  padding-left: 15px;
+}
+
+.resp {
+  color: grey;
+  margin-top: 0.5em;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 768px) {
