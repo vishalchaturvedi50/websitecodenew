@@ -17,12 +17,12 @@
     </ul>
  -->
 
-    <ul>
+    <ul class="desc-item-top-ul">
       <li class="desc-item-top" *ngFor="let req of item.descItems">
         {{req.name}}
         <br>
         <div><span class="resp" *ngIf="req.responsibilities.length>0 ">Key Responsibilities</span></div>
-        <ul>
+        <ul class="desc-item-ul">
           <li class="desc-item" *ngFor="let desc of req.responsibilities">{{desc}}</li>
         </ul>
       </li>

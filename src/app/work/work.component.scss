@@ -47,4 +47,19 @@ img {
   img {
     max-height: 3em;
   }
+
+  .title {
+    font-size: 1.2em;
+  }
+  .desc-item-top,
+  .desc-item {
+    font-size: 0.9em;
+    text-align: left;
+  }
+  .desc-item-top-ul {
+    padding-inline-start: 0.25em;
+  }
+  .desc-item-ul {
+    padding-inline-start: 1.7em;
+  }
 }
