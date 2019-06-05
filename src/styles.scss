@@ -42,7 +42,12 @@ body {
   width: 25%;
 }
 
+.w-33 {
+  width: 33%;
+}
+
 .w-10,
+.w-33,
 .w-20,
 .w-100,
 .w-50,
@@ -105,6 +110,34 @@ body {
   color: #82827c;
 }
 
+.card {
+  box-shadow: 0px 0px 10px #b3b3b3;
+  border: 1px solid gainsboro;
+  padding: 1em;
+  margin: 1em;
+  img {
+    max-width: 100%;
+  }
+  .heading {
+    font-weight: 300;
+    color: #2b2b29;
+  }
+  p {
+    color: grey;
+    font-weight: 300;
+    text-align: justify;
+  }
+  div {
+    text-align: end;
+    a {
+      font-size: 1em;
+      color: #28c4ff;
+      text-decoration: none;
+      padding: 0.5em 0.2em;
+    }
+  }
+}
+
 .padding-x {
   padding: 1em;
 }
@@ -130,5 +163,8 @@ body {
   }
   .padding-sm-x {
     padding: 0.5em;
+  }
+  .card {
+    margin: 1em 0em;
   }
 }

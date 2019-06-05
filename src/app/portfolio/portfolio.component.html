@@ -1,0 +1,10 @@
+<div *ngFor="let item of portfolio" class="w-33 w-sm-100 card flex flex--column">
+
+  <img [src]="item.imgPath" />
+
+  <h3 class="heading">{{item.header}}</h3>
+  <p><span>{{item.description}}</span> </p>
+  <div>
+    <a [href]="item.link" target="_blank">Visit App</a>
+  </div>
+</div>
