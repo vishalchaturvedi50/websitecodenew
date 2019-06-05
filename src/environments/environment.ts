@@ -31,21 +31,21 @@ my traveling stories (not many though) you can reach me out over an email.`
 };
 
 export const techSkillsConst = [
-  { img: "./../assets/tech/html.png", desc: "" },
-  { img: "./../assets/tech/css.png", desc: "" },
-  { img: "./../assets/tech/js.png", desc: "" },
-  { img: "./../assets/tech/git.png", desc: "" },
-  { img: "./../assets/tech/angular.png", desc: "" },
-  { img: "./../assets/tech/typescript.png", desc: "" },
-  { img: "./../assets/tech/sass.png", desc: "" },
-  { img: "./../assets/tech/bootstrap.png", desc: "" },
-  { img: "./../assets/tech/materialdesign.png", desc: "" },
-  { img: "./../assets/tech/predix.png", desc: "" },
-  { img: "./../assets/tech/highcharts.png", desc: "" },
-  { img: "./../assets/tech/d3.png", desc: "" },
-  { img: "./../assets/tech/java.png", desc: "" },
-  { img: "./../assets/tech/mongo.png", desc: "" },
-  { img: "./../assets/tech/pg.png", desc: "" },
+  { img: "./assets/tech/html.png", desc: "" },
+  { img: "./assets/tech/css.png", desc: "" },
+  { img: "./assets/tech/js.png", desc: "" },
+  { img: "./assets/tech/git.png", desc: "" },
+  { img: "./assets/tech/angular.png", desc: "" },
+  { img: "./assets/tech/typescript.png", desc: "" },
+  { img: "./assets/tech/sass.png", desc: "" },
+  { img: "./assets/tech/bootstrap.png", desc: "" },
+  { img: "./assets/tech/materialdesign.png", desc: "" },
+  { img: "./assets/tech/predix.png", desc: "" },
+  { img: "./assets/tech/highcharts.png", desc: "" },
+  { img: "./assets/tech/d3.png", desc: "" },
+  { img: "./assets/tech/java.png", desc: "" },
+  { img: "./assets/tech/mongo.png", desc: "" },
+  { img: "./assets/tech/pg.png", desc: "" },
 ];
 
 
@@ -139,19 +139,19 @@ export const educationConst = [
 
 
 export const hobbyConst = [
-  "./../assets/hobby/re.png",
-  "./../assets/hobby/music.png",
-  "./../assets/hobby/movies.png",
+  "./assets/hobby/re.png",
+  "./assets/hobby/music.png",
+  "./assets/hobby/movies.png",
   "../assets/hobby/book.png",
 ];
 
 
 export const brandIconsConst = [
-  { iconpath: "./../assets/icons/linkedin.png", link: "https://www.linkedin.com/in/vishal-chaturvedi-916b1478/" },
-  { iconpath: "./../assets/icons/github.png", link: "https://github.com/vishalchaturvedi50" },
-  { iconpath: "./../assets/icons/quora.png", link: "https://vishalchaturvedi50.quora.com/" },
-  { iconpath: "./../assets/icons/gmail.png", link: "mailto:vishalchaturvedi50@gmail.com" },
-  { iconpath: "./../assets/icons/facebook.png", link: "https://www.facebook.com/chaturvedi.vishal4" }
+  { iconpath: "./assets/icons/linkedin.png", link: "https://www.linkedin.com/in/vishal-chaturvedi-916b1478/" },
+  { iconpath: "./assets/icons/github.png", link: "https://github.com/vishalchaturvedi50" },
+  { iconpath: "./assets/icons/quora.png", link: "https://vishalchaturvedi50.quora.com/" },
+  { iconpath: "./assets/icons/gmail.png", link: "mailto:vishalchaturvedi50@gmail.com" },
+  { iconpath: "./assets/icons/facebook.png", link: "https://www.facebook.com/chaturvedi.vishal4" }
 ];
 
 
