@@ -19,7 +19,7 @@ export const aboutMeConst = {
   heading: "About Me",
   sections: [
 
-    `A Full Stack Web Developer with an Experience of over 4.5 Years, I hold a passion to develop flawless user
+    `A Full Stack Web Developer with an Experience of over 4.9 Years, I hold a passion to develop flawless user
   interfaces with cutting edge technologies and with Design Thinking as my main principle of work. Right from working
   on Products which caters to Business(B2B), Enterprise(B2E) or Consumers(B2C) to being an SME in Gamification trends
   I bring forward my thought leadership, functional knowledge and technological experience to the team I work with.
@@ -157,20 +157,35 @@ export const brandIconsConst = [
 
 export const portfolio = [
   {
-    imgPath: "./assets/portfolio/ipl.PNG", header: "IPL Data Visualization",
+    imgPath: {
+      img_urls:
+        ["./assets/portfolio/ipl1.png",
+          "./assets/portfolio/ipl2.png",
+          "./assets/portfolio/ipl3.png",
+          "./assets/portfolio/ipl4.png"]
+    }, header: "IPL Data Visualization",
     description: `The web application helps visualize IPL match details
      from 2008-2016. You can view leagues in all the years, 
     match played by each team and details of each match through this interface. `,
     link: "https://vishalchaturvedi50.github.io/IPL-Data-Visualisation/"
   },
   {
-    imgPath: "./assets/portfolio/restro.PNG", header: "European Restro Search",
+    imgPath: {
+      img_urls:
+        ["./assets/portfolio/ers1.png",
+          "./assets/portfolio/ers2.png"]
+    }, header: "European Restro Search",
     description: ` This web application provides user with an interface to search 
      resturants in Europe by name, location or cusine and provide them with information such rating, customer visits etc. `,
     link: "https://vishalchaturvedi50.github.io/European-Restro-Search/"
   },
   {
-    imgPath: "./assets/portfolio/game.PNG", header: "World Game Info",
+    imgPath: {
+      img_urls:
+        ["./assets/portfolio/game1.png",
+          "./assets/portfolio/game2.png",
+          "./assets/portfolio/game3.png"]
+    }, header: "World Game Info",
     description: `World Game Info. is a web app built by collating data of over 20K games worldwide.
      It provide end user with information about game in detail and also has an intergation with google search and RAWG. `,
     link: "https://vishalchaturvedi50.github.io/World-Game-Info/"

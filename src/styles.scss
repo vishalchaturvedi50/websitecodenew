@@ -115,9 +115,12 @@ body {
   border: 1px solid gainsboro;
   padding: 1em;
   margin: 1em;
-  img {
+  ngx-img-carousel {
     max-width: 100%;
   }
+  /* img {
+   max-width: 100% ;
+  } */
   .heading {
     font-weight: 300;
     color: #2b2b29;
