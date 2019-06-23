@@ -159,6 +159,17 @@ export const portfolio = [
   {
     imgPath: {
       img_urls:
+        ["./assets/portfolio/chat1.PNG",
+          "./assets/portfolio/chat2.PNG",
+          "./assets/portfolio/chat3.PNG"]
+    }, header: "Web Chat Application",
+    description: `This application is a basic chat application based on WebSocket and
+    IndexedDB. It allows user to chat with other user's and view past messages from friends. `,
+    link: "https://vishalchaturvedi50.github.io/chat-app/"
+  },
+  {
+    imgPath: {
+      img_urls:
         ["./assets/portfolio/ipl1.png",
           "./assets/portfolio/ipl2.png",
           "./assets/portfolio/ipl3.png",
